@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/09a99c344f.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   
@@ -18,26 +19,33 @@
 </head>
 <body>
   <div class="container">
-    <div class="container-inner-one">
-              <h1>We're</h1>
-              <h2>coming</h2>
-              <h2>soon</h2>
-              <p>
-                Hello fellow shoppers! We're currently building our new fashion store. 
-                Add your email below to stay up-to-date with announcements and our launch deals.
-              </p>
-              <form name="email-form" method="POST" data-netlify="true">
-                <div class="email-form">
-                    <span class="form-control-wrap">
-                        <input type="email" name="email" id="email" size="40" class="form-control" placeholder="Email">
-                    </span>
-                    <button type="submit" class="form-control submit">
-                        <i class="fas fa-chevron-right"></i>
-                    </button>
+      <div class="container-inner-one">
+        <div>
+            <div>
+                <div class="logo">
+                    <img src="images/logo.svg" alt="logo">
                 </div>
-            </form>
-    </div>
-    <img src="images/hero-desktop.jpg" alt="showcase">
+                  <h1>WE'RE</h1>
+                  <h2>COMING</h2>
+                  <h2>SOON</h2>
+                  <p>
+                    Hello fellow shoppers! We're currently building our new fashion store. 
+                    Add your email below to stay up-to-date with announcements and our launch deals.
+                  </p>
+                <form name="email-form" method="POST" data-netlify="true">
+                    <div class="email-form">
+                        <span class="form-control-wrap">
+                            <input type="email" name="email" id="email" size="40" class="form-control" placeholder="Email Address">
+                        </span>
+                        <button type="submit" class="form-control submit">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>  
+        </div>
+      </div>
+      <img src="images/hero-desktop.jpg" alt="showcase">
   </div>
   
   <footer>
